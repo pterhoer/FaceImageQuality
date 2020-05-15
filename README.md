@@ -1,5 +1,6 @@
 # Face Image Quality Assessment
 
+***15.05.2020*** _Bias in FIQ was added._
 ***15.05.2020*** _SER-FIQ (CVPR2020) was added._
 
 ## SER-FIQ: Unsupervised Estimation of Face Image Quality Based on Stochastic Embedding Robustness
