@@ -19,8 +19,6 @@ Face image quality is an important factor to enable high-performance face recogn
 
 ***Key points***
 
-<img src="3065-1min.mp4" width="400" align="right">
-
 - Quality assessment with SER-FIQ is most effective when the quality measure is based on the deployed face recognition network, meaning that **the quality estimation and the recognition should be performed on the same network**. This way the quality estimation captures the same decision patterns than the face recognition system.
 - To get accurate quality estimations, the underlying face recognition network for SER-FIQ should be **trained with dropout**. This is suggested since our solution utilizes the robustness against dropout variations as a quality indicator.
 - The provided code is only a demonstration how SER-FIQ can be utilized. The contribution of SER-FIQ is the novel concept of measuring face quality.
@@ -28,27 +26,27 @@ Face image quality is an important factor to enable high-performance face recogn
 
 ***Results***
 
-Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ is based on ArcFace. These show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the European Border Guard Agency Frontex. For more results, please take a look at the paper.
+Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ is based on ArcFace. These show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the European Border Guard Agency Frontex. For more details and results, please take a look at the paper.
 
 <img src="FQA-Results/001FMR_lfw_arcface.png" width="430" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="430" >
 
 ***Bias in Face Quality Assessment***
 
 The best face quality assessment performance is achieved when the quality assessment solutions build on the templates of the deployed face recognition system.
-In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* [Paper](https://arxiv.org/abs/2004.01019), we showed that this lead to a bias transfoer from the face recognition system to the quality assessment.
+In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* ([Link to the Paper](https://arxiv.org/abs/2004.01019)), we showed that this lead to a bias transfoer from the face recognition system to the quality assessment.
 On all investigated quality assessment approaches, we observed performance differences based on on demographics and non-demographics of the face images.
 
 
-<img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_adience_arcface_age.png" width="250">
+<img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_pose.png" width="270"> <img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_ethnic.png" width="270"> <img src="/Bias-FQA/stack_SER-FIQ_adience_arcface_age.png" width="270">
 
-<img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_adience_arcface_age.png" width="250">
+<img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_pose.png" width="270"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_ethnic.png" width="270"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_adience_arcface_age.png" width="270">
 
 
 
 ***Citing***
 
 If you find our work useful, please consider citing the following works.
-If you make use of our SER-FIQ implementation based on ArcFace, please additionally cite the original ![ArcFace paper](https://github.com/deepinsight/insightface).
+
 
 ```
 @article{DBLP:journals/corr/abs-2003-09373,
@@ -91,6 +89,8 @@ If you make use of our SER-FIQ implementation based on ArcFace, please additiona
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+
+If you make use of our SER-FIQ implementation based on ArcFace, please additionally cite the original ![ArcFace paper](https://github.com/deepinsight/insightface).
 
 ## Acknowledgement
 
