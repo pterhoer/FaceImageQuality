@@ -26,14 +26,14 @@ Face image quality is an important factor to enable high-performance face recogn
 
 ***Results***
 
-Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ is based on ArcFace. These show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the European Border Guard Agency Frontex. For more details and results, please take a look at the paper.
+Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ (same model) is based on ArcFace and shown in red. The plots show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the [best practice guidelines](https://op.europa.eu/en/publication-detail/-/publication/e81d082d-20a8-11e6-86d0-01aa75ed71a1) of the European Border Guard Agency Frontex. For more details and results, please take a look at the paper.
 
 <img src="FQA-Results/001FMR_lfw_arcface.png" width="430" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="430" >
 
 ***Bias in Face Quality Assessment***
 
 The best face quality assessment performance is achieved when the quality assessment solutions build on the templates of the deployed face recognition system.
-In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* ([Link to the Paper](https://arxiv.org/abs/2004.01019)), we showed that this lead to a bias transfoer from the face recognition system to the quality assessment.
+In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* ([Link to the Paper](https://arxiv.org/abs/2004.01019)), we showed that this lead to a bias transfer from the face recognition system to the quality assessment solution.
 On all investigated quality assessment approaches, we observed performance differences based on on demographics and non-demographics of the face images.
 
 
@@ -45,7 +45,7 @@ On all investigated quality assessment approaches, we observed performance diffe
 
 ***Citing***
 
-If you find our work useful, please consider citing the following works.
+If you find our work useful, please consider citing.
 
 
 ```
