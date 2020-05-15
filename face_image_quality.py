@@ -1,4 +1,6 @@
 # Author: Jan Niklas Kolf, 2020
+# Demo-implementation of SER-FIQ on ArcFace (InsightFace)
+
 import sys
 from os import path as os_path
 
