@@ -96,7 +96,7 @@ If you make use of our SER-FIQ implementation based on ArcFace, please additiona
 
 This research work has been funded by the German Federal Ministry of Education and Research and the Hessen State Ministry for Higher Education, Research and the Arts within their joint support of the National Research Center for Applied Cybersecurity ATHENE. 
 
-## Licence 
+## License 
 
-This project is licensed under the terms of the ... license.
+This project is licensed under the terms of the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
 Copyright (c) 2020 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt
