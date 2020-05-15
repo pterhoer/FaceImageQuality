@@ -30,7 +30,7 @@ On all investigated quality assessment approaches, we observed performance diffe
 
 <img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_adience_arcface_age.png" width="250">
 
-<img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_pose.png" width="250">
+<img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_adience_arcface_age.png" width="250">
 
 
 
