@@ -1,5 +1,7 @@
 # Face Image Quality Assessment
 
+***15.05.2020*** _Bias in FIQ was added._
+
 ***15.05.2020*** _SER-FIQ (CVPR2020) was added._
 
 ## SER-FIQ: Unsupervised Estimation of Face Image Quality Based on Stochastic Embedding Robustness
@@ -16,6 +18,9 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020
 Face image quality is an important factor to enable high-performance face recognition systems. Face quality assessment aims at estimating the suitability of a face image for recognition. Previous works proposed supervised solutions that require artificially or human labelled quality values. However, both labelling mechanisms are error-prone as they do not rely on a clear definition of quality and may not know the best characteristics for the utilized face recognition system. Avoiding the use of inaccurate quality labels, we proposed a novel concept to measure face quality based on an arbitrary face recognition model. By determining the embedding variations generated from random subnetworks of a face model, the robustness of a sample representation and thus, its quality is estimated. The experiments are conducted in a cross-database evaluation setting on three publicly available databases. We compare our proposed solution on two face embeddings against six state-of-the-art approaches from academia and industry. The results show that our unsupervised solution outperforms all other approaches in the majority of the investigated scenarios. In contrast to previous works, the proposed solution shows a stable performance over all scenarios. Utilizing the deployed face recognition model for our face quality assessment methodology avoids the training phase completely and further outperforms all baseline approaches by a large margin. Our solution can be easily integrated into current face recognition systems and can be modified to other tasks beyond face recognition.
 
 ***Key points***
+
+<img src="3065-1min.mp4" width="400" align="right">
+
 - Quality assessment with SER-FIQ is most effective when the quality measure is based on the deployed face recognition network, meaning that **the quality estimation and the recognition should be performed on the same network**. This way the quality estimation captures the same decision patterns than the face recognition system.
 - To get accurate quality estimations, the underlying face recognition network for SER-FIQ should be **trained with dropout**. This is suggested since our solution utilizes the robustness against dropout variations as a quality indicator.
 - The provided code is only a demonstration how SER-FIQ can be utilized. The contribution of SER-FIQ is the novel concept of measuring face quality.
@@ -24,11 +29,13 @@ Face image quality is an important factor to enable high-performance face recogn
 ***Bias in Face Quality Assessment***
 
 The best face quality assessment performance is achieved when the quality assessment solutions build on the templates of the deployed face recognition system.
-In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* * [Paper](https://arxiv.org/abs/2004.01019), we showed that this lead to a bias transfoer from the face recognition system to the quality assessment.
+In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* [Paper](https://arxiv.org/abs/2004.01019), we showed that this lead to a bias transfoer from the face recognition system to the quality assessment.
 On all investigated quality assessment approaches, we observed performance differences based on on demographics and non-demographics of the face images.
 
 
-Add images for SER-FIQ stacked plots and score distributions
+<img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_adience_arcface_age.png" width="250">
+
+<img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_adience_arcface_age.png" width="250">
 
 
 
