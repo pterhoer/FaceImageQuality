@@ -28,7 +28,7 @@ Face image quality is an important factor to enable high-performance face recogn
 ***Bias in Face Quality Assessment***
 
 The best face quality assessment performance is achieved when the quality assessment solutions build on the templates of the deployed face recognition system.
-In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* * [Paper](https://arxiv.org/abs/2004.01019), we showed that this lead to a bias transfoer from the face recognition system to the quality assessment.
+In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* [Paper](https://arxiv.org/abs/2004.01019), we showed that this lead to a bias transfoer from the face recognition system to the quality assessment.
 On all investigated quality assessment approaches, we observed performance differences based on on demographics and non-demographics of the face images.
 
 
