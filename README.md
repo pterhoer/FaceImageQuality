@@ -28,7 +28,7 @@ In our work on *Face Quality Estimation and Its Correlation to Demographic and N
 On all investigated quality assessment approaches, we observed performance differences based on on demographics and non-demographics of the face images.
 
 
-<img src="/Bias-FIQ/stack_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FIQ/stack_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FIQ/stack_SER-FIQ_adience_arcface_age.png" width="250">
+<img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_pose.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_colorferet_arcface_ethnic.png" width="250"> <img src="/Bias-FQA/stack_SER-FIQ_adience_arcface_age.png" width="250">
 
 Add images for SER-FIQ stacked plots and score distributions
 
