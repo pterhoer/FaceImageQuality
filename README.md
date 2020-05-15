@@ -26,6 +26,12 @@ Face image quality is an important factor to enable high-performance face recogn
 - The provided code is only a demonstration how SER-FIQ can be utilized. The contribution of SER-FIQ is the novel concept of measuring face quality.
 - If the last layer contains dropout, it is sufficient to repeat the stochastic forward passes only on this layer. This significantly reduces the computation time to a time span of a face template generation.
 
+***Results***
+
+Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ is based on ArcFace. These show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the European Border Guard Agency Frontex. For more results, please take a look at the paper.
+
+<img src="FQA-Results/001FMR_lfw_arcface.png" width="430" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="430" >
+
 ***Bias in Face Quality Assessment***
 
 The best face quality assessment performance is achieved when the quality assessment solutions build on the templates of the deployed face recognition system.
