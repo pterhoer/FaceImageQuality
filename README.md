@@ -44,7 +44,15 @@ Face image quality assessment results are shown below on LFW (left) and Adience 
 
 ## Installation
 
-We recommend Anaconda to install the following packages.
+We recommend Anaconda to install the required packages.
+This can be done by creating an virtual environment via
+
+```shell
+conda env create -f environment.yml
+```
+
+or by manually installing the following packages.
+
 
 ```shell
 conda create -n serfiq python=3.6.9
