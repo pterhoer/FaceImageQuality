@@ -64,7 +64,7 @@ conda install keras=2.2.4
 ## Bias in Face Quality Assessment
 
 The best face quality assessment performance is achieved when the quality assessment solutions build on the templates of the deployed face recognition system.
-In our work on *Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition* ([Link to the Paper](https://arxiv.org/abs/2004.01019)), we showed that this lead to a bias transfer from the face recognition system to the quality assessment solution.
+In our work on ([Face Quality Estimation and Its Correlation to Demographic and Non-Demographic Bias in Face Recognition](https://arxiv.org/abs/2004.01019)), we showed that this lead to a bias transfer from the face recognition system to the quality assessment solution.
 On all investigated quality assessment approaches, we observed performance differences based on on demographics and non-demographics of the face images.
 
 
@@ -121,7 +121,7 @@ If you find our work useful, please consider citing.
 }
 ```
 
-If you make use of our SER-FIQ implementation based on ArcFace, please additionally cite the original ![ArcFace paper](https://github.com/deepinsight/insightface).
+If you make use of our SER-FIQ implementation based on ArcFace, please additionally cite the original ![ArcFace module](https://github.com/deepinsight/insightface).
 
 ## Acknowledgement
 
