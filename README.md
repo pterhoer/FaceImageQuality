@@ -84,7 +84,7 @@ On all investigated quality assessment approaches, we observed performance diffe
 
 ## Citing
 
-If you find our work useful, please consider citing.
+If you use this code, please cite the following papers.
 
 
 ```
