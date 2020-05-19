@@ -66,8 +66,13 @@ conda install -c conda-forge opencv
 conda install -c anaconda scikit-learn
 conda install -c conda-forge scikit-image
 conda install keras=2.2.4
-
 ```
+
+The implementation for SER-FIQ based on ArcFace can be found here: [Implementation](face_image_quality.py). <br/>
+In the [Paper](https://arxiv.org/abs/2003.09373), this is refered to _SER-FIQ (same model) based on ArcFace_. <br/>
+An example on how to apply the code is shown here: [Sample Code](serfiq_example.py). 
+
+
 
 ## Bias in Face Quality Assessment
 
