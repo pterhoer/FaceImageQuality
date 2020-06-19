@@ -36,3 +36,6 @@ if __name__ == "__main__":
                                                )
    
     print("SER-FIQ quality score of image 2 is", score2)
+    
+# Please note that SER-FIQ on ArcFace produces quality estimates in a very narrow, and thus unconvinient, range.
+# You might rescale these values to a more convinient range, such as [0,1].
