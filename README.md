@@ -40,7 +40,7 @@ Face image quality is an important factor to enable high-performance face recogn
 
 Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ (same model) is based on ArcFace and shown in red. The plots show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the [best practice guidelines](https://op.europa.eu/en/publication-detail/-/publication/e81d082d-20a8-11e6-86d0-01aa75ed71a1) of the European Border Guard Agency Frontex. For more details and results, please take a look at the paper.
 
-<img src="FQA-Results/001FMR_lfw_arcface.png" width="430" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="430" >
+<img src="FQA-Results/001FMR_lfw_arcface.png" width="400" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="400" >
 
 ## Installation
 
