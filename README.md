@@ -1,10 +1,12 @@
 # Face Image Quality Assessment
 
-***18.05.2020*** _Bias in FIQ was added._
+***18.05.2020*** _Bias in FIQ (IJCB2020) was added._
 
 ***15.05.2020*** _SER-FIQ (CVPR2020) was added._
 
 ## SER-FIQ: Unsupervised Estimation of Face Image Quality Based on Stochastic Embedding Robustness
+
+
 
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020
 
@@ -30,6 +32,8 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020
 Face image quality is an important factor to enable high-performance face recognition systems. Face quality assessment aims at estimating the suitability of a face image for recognition. Previous works proposed supervised solutions that require artificially or human labelled quality values. However, both labelling mechanisms are error-prone as they do not rely on a clear definition of quality and may not know the best characteristics for the utilized face recognition system. Avoiding the use of inaccurate quality labels, we proposed a novel concept to measure face quality based on an arbitrary face recognition model. By determining the embedding variations generated from random subnetworks of a face model, the robustness of a sample representation and thus, its quality is estimated. The experiments are conducted in a cross-database evaluation setting on three publicly available databases. We compare our proposed solution on two face embeddings against six state-of-the-art approaches from academia and industry. The results show that our unsupervised solution outperforms all other approaches in the majority of the investigated scenarios. In contrast to previous works, the proposed solution shows a stable performance over all scenarios. Utilizing the deployed face recognition model for our face quality assessment methodology avoids the training phase completely and further outperforms all baseline approaches by a large margin. Our solution can be easily integrated into current face recognition systems and can be modified to other tasks beyond face recognition.
 
 ## Key Points
+
+<img align="right" src="https://img.youtube.com/vi/soW_Gg4NElc/0.jpg" alt="https://www.youtube.com/watch?v=soW_Gg4NElc" width="480">
 
 - Quality assessment with SER-FIQ is most effective when the quality measure is based on the deployed face recognition network, meaning that **the quality estimation and the recognition should be performed on the same network**. This way the quality estimation captures the same decision patterns as the face recognition system.
 - To get accurate quality estimations, the underlying face recognition network for SER-FIQ should be **trained with dropout**. This is suggested since our solution utilizes the robustness against dropout variations as a quality indicator.
