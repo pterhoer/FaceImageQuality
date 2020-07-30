@@ -1,8 +1,10 @@
 # Face Image Quality Assessment
 
+***15.05.2020*** _SER-FIQ (CVPR2020) was added._
+
 ***18.05.2020*** _Bias in FIQ (IJCB2020) was added._
 
-***15.05.2020*** _SER-FIQ (CVPR2020) was added._
+
 
 ## SER-FIQ: Unsupervised Estimation of Face Image Quality Based on Stochastic Embedding Robustness
 
@@ -12,6 +14,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020
 
 * [Research Paper](https://arxiv.org/abs/2003.09373)
 * [Implementation on ArcFace](face_image_quality.py)
+* [Video](https://www.youtube.com/watch?v=soW_Gg4NElc)
 
 
 ## Table of Contents 
@@ -44,7 +47,7 @@ Face image quality is an important factor to enable high-performance face recogn
 
 Face image quality assessment results are shown below on LFW (left) and Adience (right). SER-FIQ (same model) is based on ArcFace and shown in red. The plots show the FNMR at ![\Large 10^{-3}](https://latex.codecogs.com/gif.latex?\inline&space;10^{-3}) FMR as recommended by the [best practice guidelines](https://op.europa.eu/en/publication-detail/-/publication/e81d082d-20a8-11e6-86d0-01aa75ed71a1) of the European Border Guard Agency Frontex. For more details and results, please take a look at the paper.
 
-<img src="FQA-Results/001FMR_lfw_arcface.png" width="400" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="400" >
+
 
 ## Installation
 
