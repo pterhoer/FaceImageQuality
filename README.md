@@ -116,7 +116,9 @@ If you use this code, please cite the following papers.
 
 
 ```
-@article{DBLP:journals/corr/abs-2003-09373,
+
+
+@inproceedings{DBLP:conf/cvpr/TerhorstKDKK20,
   author    = {Philipp Terh{\"{o}}rst and
                Jan Niklas Kolf and
                Naser Damer and
@@ -124,16 +126,19 @@ If you use this code, please cite the following papers.
                Arjan Kuijper},
   title     = {{SER-FIQ:} Unsupervised Estimation of Face Image Quality Based on
                Stochastic Embedding Robustness},
-  journal   = {CoRR},
-  volume    = {abs/2003.09373},
+  booktitle = {2020 {IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
+               {CVPR} 2020, Seattle, WA, USA, June 13-19, 2020},
+  pages     = {5650--5659},
+  publisher = {{IEEE}},
   year      = {2020},
-  url       = {https://arxiv.org/abs/2003.09373},
-  archivePrefix = {arXiv},
-  eprint    = {2003.09373},
-  timestamp = {Tue, 24 Mar 2020 16:42:29 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2003-09373.bib},
+  url       = {https://doi.org/10.1109/CVPR42600.2020.00569},
+  doi       = {10.1109/CVPR42600.2020.00569},
+  timestamp = {Tue, 11 Aug 2020 16:59:49 +0200},
+  biburl    = {https://dblp.org/rec/conf/cvpr/TerhorstKDKK20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+
 ```
 
 ```
