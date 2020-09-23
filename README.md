@@ -116,8 +116,6 @@ If you use this code, please cite the following papers.
 
 
 ```
-
-
 @inproceedings{DBLP:conf/cvpr/TerhorstKDKK20,
   author    = {Philipp Terh{\"{o}}rst and
                Jan Niklas Kolf and
@@ -137,8 +135,6 @@ If you use this code, please cite the following papers.
   biburl    = {https://dblp.org/rec/conf/cvpr/TerhorstKDKK20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-
-
 ```
 
 ```
