@@ -73,7 +73,7 @@ conda install -c conda-forge scikit-image
 conda install keras=2.2.4
 ```
 
-After the required packages have been installed, also download the [Insightface repository](https://github.com/deepinsight/insightface) to a location of your choice and extract the archive if necessary.
+After the required packages have been installed, also download the [Insightface codebase at the needed git point in the repository history](https://github.com/deepinsight/insightface/tree/60bb5829b1d76bfcec7930ce61c41dde26413279) to a location of your choice and extract the archive if necessary.
 
 We will refer to this location as _$Insightface_ in the following. 
 
