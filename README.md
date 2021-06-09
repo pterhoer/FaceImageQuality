@@ -138,7 +138,7 @@ If you use this code, please cite the following papers.
 ```
 
 ```
-@article{DBLP:journals/corr/abs-2004-01019,
+@inproceedings{DBLP:conf/icb/TerhorstKDKK20,
   author    = {Philipp Terh{\"{o}}rst and
                Jan Niklas Kolf and
                Naser Damer and
@@ -146,16 +146,19 @@ If you use this code, please cite the following papers.
                Arjan Kuijper},
   title     = {Face Quality Estimation and Its Correlation to Demographic and Non-Demographic
                Bias in Face Recognition},
-  journal   = {CoRR},
-  volume    = {abs/2004.01019},
+  booktitle = {2020 {IEEE} International Joint Conference on Biometrics, {IJCB} 2020,
+               Houston, TX, USA, September 28 - October 1, 2020},
+  pages     = {1--11},
+  publisher = {{IEEE}},
   year      = {2020},
-  url       = {https://arxiv.org/abs/2004.01019},
-  archivePrefix = {arXiv},
-  eprint    = {2004.01019},
-  timestamp = {Wed, 08 Apr 2020 17:08:25 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2004-01019.bib},
+  url       = {https://doi.org/10.1109/IJCB48548.2020.9304865},
+  doi       = {10.1109/IJCB48548.2020.9304865},
+  timestamp = {Thu, 14 Jan 2021 15:14:18 +0100},
+  biburl    = {https://dblp.org/rec/conf/icb/TerhorstKDKK20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+
 ```
 
 If you make use of our SER-FIQ implementation based on ArcFace, please additionally cite the original ![ArcFace module](https://github.com/deepinsight/insightface).
