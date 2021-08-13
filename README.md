@@ -4,7 +4,7 @@
 
 ***18.05.2020*** _Bias in FIQ (IJCB2020) was added._
 
-***13.08.2021*** _The implementation of SER-FIQ outputs qualities in the range of [0,1]._
+***13.08.2021*** _The implementation now outputs normalized quality values._
 
 
 ## SER-FIQ: Unsupervised Estimation of Face Image Quality Based on Stochastic Embedding Robustness
