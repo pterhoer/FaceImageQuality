@@ -50,7 +50,7 @@ Face image quality assessment results are shown below on LFW (left) and Adience 
 
 ## Installation
 
-We recommend using a virtual environment to install the required packages.
+We recommend using a virtual environment to install the required packages. Python 3.7 or 3.8 is recommended.
 To install them execute
 
 ```shell
@@ -60,9 +60,10 @@ pip install -r requirements.txt
 or you can install them manually with the following command:
 
 ```shell
-pip install mxnet-cu100 scikit-image scikit-learn opencv-python
+pip install mxnet-cuXYZ scikit-image scikit-learn opencv-python
 ```
 
+Please replace mxnet-cuXYZ with your CUDA version.
 After the required packages have been installed, [download the model files](https://drive.google.com/file/d/17fEWczMzTUDzRTv9qN3hFwVbkqRD7HE7/view?usp=sharing) and place them in the
 
 ```
