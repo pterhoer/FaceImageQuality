@@ -6,6 +6,8 @@
 
 ***13.08.2021*** _The implementation now outputs normalized quality values._
 
+***30.11.2021*** _Related works section was added_
+
 
 ## SER-FIQ: Unsupervised Estimation of Face Image Quality Based on Stochastic Embedding Robustness
 
@@ -25,6 +27,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020
 - [Results](#results)
 - [Installation](#installation)
 - [Bias in Face Quality Assessment](#bias-in-face-quality-assessment)
+- [Related Works](#related-works)
 - [Citing](#citing)
 - [Acknowledgement](#acknowledgement)
 - [License](#license)
@@ -91,7 +94,12 @@ On all investigated quality assessment approaches, we observed performance diffe
 
 <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_pose.png" width="270"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_colorferet_arcface_ethnic.png" width="270"> <img src="/Bias-FQA/quality_distribution_SER-FIQ_adience_arcface_age.png" width="270">
 
+## Related Works
 
+You might be also interested in some of our follow-up works:
+
+- [Pixel-Level Face Image Quality Assessment for Explainable Face Recognition](https://github.com/pterhoer/ExplainableFaceImageQuality) - The concept of face image quality assessment is transferred to the level of single pixels with the goal to make the face recognition process understable for humans.
+- [QMagFace: Simple and Accurate Quality-Aware Face Recognition](https://github.com/pterhoer/QMagFace) - Face image quality information is included in the recognition process of a face recognition model trained with a magnitude-aware angular margin with the result of reaching SOTA performance on several unconstrained face recognition benchmarks.
 
 ## Citing
 
