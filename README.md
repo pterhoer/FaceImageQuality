@@ -40,10 +40,10 @@ Face image quality is an important factor to enable high-performance face recogn
 
 ## Key Points
 
-- Quality assessment with SER-FIQ is most effective when the quality measure is based on the deployed face recognition network, meaning that **the quality estimation and the recognition should be performed on the same network**. This way the quality estimation captures the same decision patterns as the face recognition system.
+- Quality assessment with SER-FIQ is most effective when the quality measure is based on the deployed face recognition network, meaning that **the quality estimation and the recognition should be performed on the same network**. This way the quality estimation captures the same decision patterns as the face recognition system. If you use this model from this GitHub for your research, please make sure to label it as "SER-FIQ (on ArcFace)" since this is the underlying recognition model.
 - To get accurate quality estimations, the underlying face recognition network for SER-FIQ should be **trained with dropout**. This is suggested since our solution utilizes the robustness against dropout variations as a quality indicator.
 - The provided code is only a demonstration on how SER-FIQ can be utilized. The main contribution of SER-FIQ is the novel concept of measuring face image quality.
-- If the last layer contains dropout, it is sufficient to repeat the stochastic forward passes only on this layer. This significantly reduces the computation time to a time span of a face template generation.
+- If the last layer contains dropout, it is sufficient to repeat the stochastic forward passes only on this layer. This significantly reduces the computation time to a time span of a face template generation. On ResNet-100, it takes 24.2 GFLOPS for creating an embedding and only 26.8 GFLOPS (+10%) for estimating the quality.
 
 ## Results
 
