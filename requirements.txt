@@ -11,7 +11,7 @@ mxnet-cu100==1.8.0.post0
 networkx==2.6.2
 numpy==1.21.1
 opencv-python==4.5.3.56
-Pillow==8.3.1
+Pillow==9.0.1
 pyparsing==2.4.7
 python-dateutil==2.8.2
 PyWavelets==1.1.1
